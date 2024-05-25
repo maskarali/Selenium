@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EditExample {
 
 	public static void main(String[] args) {
-		System.setProperty("web.chrome.driver", "C:\\Users\\MJ\\Downloads\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("web.chrome.driver", "C:\\Users\\Askar\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.leafground.com/input.xhtml");
 		WebElement email = driver.findElement(By.id("j_idt88:name"));
